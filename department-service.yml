@@ -12,7 +12,7 @@ feign:
 
 hystrix: 
   command: 
-    EmployeeClient#findByDepartment():
+    EmployeeClient#hello():
       execution: 
         isolation:
           thread:
