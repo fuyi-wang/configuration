@@ -20,7 +20,7 @@ spring:
       - id: provider-service
         uri: lb://provider-service
         predicates:
-        - Path=/provier/**
+        - Path=/provider/**
         filters:
         - RewritePath=/provider/(?<path>.*), /$\{path}
       - id: consumer-service
