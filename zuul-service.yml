@@ -17,4 +17,4 @@ zuul:
       serviceId: provider-service
     consumer:
       path: /consumer/**
-      serviceId: employee-service
+      serviceId: consumer-service
