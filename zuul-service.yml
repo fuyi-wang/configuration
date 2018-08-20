@@ -12,12 +12,9 @@ logging:
               
 zuul:
   routes:
-    department:
-      path: /department/**
-      serviceId: department-service
-    employee:
-      path: /employee/**
+    provider:
+      path: /provider/**
+      serviceId: provider-service
+    consumer:
+      path: /consumer/**
       serviceId: employee-service
-    organization:
-      path: /organization/**
-      serviceId: organization-service
